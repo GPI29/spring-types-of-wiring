@@ -6,8 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Ocean1 {
 
+    private Object wood;
     @Autowired
     private Island2 island;
+
 
     @Override
     public String toString() {
